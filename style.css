@@ -39,7 +39,10 @@ body{
     color: #5a5b52;
     font-weight: 300;
     margin-top: 30px;
-}        
+}
+.menu-item a:hover{
+    background: #e3877b;
+}
 #food-container{
     background: #8B0000;
 }
