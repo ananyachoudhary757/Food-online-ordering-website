@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
     
     <title>Online Food Delivery </title>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Parkinsans&display=swap" rel="stylesheet">
+    <head>
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    </head>
+    
     
 </head>
 <body>
@@ -29,7 +31,31 @@
             </div>
         </div>
         <div id="food-container">
-            <h1>These are food items</h1>
+            <div id="header">
+                <div class="add-box">
+                    <i class="fa fa-map-marker"></i><span id="add-address">Your Address</span>
+                </div>
+                
+                <div class="util">
+                    <i class="fa fa-search"></i><span>Search</span>
+                    <i class="fa fa-tags"></i><span>Offers</span>
+                    <i class="fa fa-cart-plus" id="cart-plus"></i><span>0 Items</span>
+                </div> 
+            </div>
+            <div id="food-items">
+                <div id="biryani">
+                    <p id="category-name">Biryani</p>
+                    <div id="item-card">
+                        <div id="card-top">
+                            <i class="fa fa-star" id="rating"> $.4</i>
+                            <i class="fa fa-heart-o add-to-cart"></i>
+                        </div>
+                        <img src="/Website/Images/biryani/Awadhi-biryani.webp">
+                        <p id="item-name">Awadhi biryani</p>
+                        <P id="item-price">Price : $20</P>
+                    </div>
+                </div>
+            </div>
         </div>
         <div id="cart">
             <h1>This is cart</h1>
